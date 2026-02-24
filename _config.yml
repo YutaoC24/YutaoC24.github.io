@@ -10,4 +10,10 @@ baseurl: "" # Leave empty
 plugins:
   - jekyll-feed
   - jekyll-gist
-  - jekyll-include-cache  # <--- Add this line
+  - jekyll-include-cache
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
