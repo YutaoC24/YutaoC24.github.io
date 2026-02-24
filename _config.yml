@@ -6,3 +6,8 @@ minimal_mistakes_skin: "air" # Clean, professional white theme
 # Site Settings
 url: "https://YutaoC24.github.io"
 baseurl: "" # Leave empty
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-include-cache  # <--- Add this line
