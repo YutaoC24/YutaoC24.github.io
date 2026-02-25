@@ -2,7 +2,7 @@
 layout: single
 title: "Control-based Motion Planning for Multi-robot-grab-and-push in Isaac Lab"
 excerpt: "Demonstration of two ridge-back franka robots using a stick to manipulate object on a higher and wider platform."
-image: "/assets/images/ridgebackfranka.png"
+image: "/assets/images/ridgebackfranka.jpg"
 ---
 
 ### Simulation Results

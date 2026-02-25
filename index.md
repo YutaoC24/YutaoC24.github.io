@@ -3,13 +3,15 @@ layout: default
 author_profile: true
 ---
 
+<div style="text-align: center; max-width: 600px; margin: 0 auto 40px;">
+
 I'm a 2nd Year CS Master's student at USC specializing in **3D Perception** and **Sim-to-Real Robotics**. 
 
 This site showcases my projects, research, and technical explorations in robotics and AI.
 
 If you have any questions
 
-## Projects
+</div>
 
 {% for project in site.projects %}
   <article style="margin-bottom: 30px;">
