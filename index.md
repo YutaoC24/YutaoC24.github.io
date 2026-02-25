@@ -3,13 +3,13 @@ layout: default
 author_profile: true
 ---
 
-<div style="text-align: center; max-width: 800px; margin: 0 auto 40px;">
+<div style="text-align: center; max-width: 800px; margin: 0 auto 40px; line-height: 1.6;">
 
-I'm a 2nd Year CS Master's student at USC specializing in <strong>3D Perception</strong> and <strong>Sim-to-Real Robotics</strong>. 
+<p style="margin: 0 0 12px;">I'm a 2nd Year CS Master's student at USC specializing in <strong>3D Perception</strong> and <strong>Sim-to-Real Robotics</strong>.</p>
 
-This site showcases my projects, research, and technical explorations in robotics and AI.
+<p style="margin: 0 0 12px;">This site showcases my projects, research, and technical explorations in robotics and AI.</p>
 
-If you have any questions, you could find me at yutaocao@usc.edu
+<p style="margin: 0;">If you have any questions, you could find me at yutaocao@usc.edu</p>
 
 </div>
 
@@ -34,7 +34,7 @@ If you have any questions, you could find me at yutaocao@usc.edu
 ## Recent Posts
 
 {% for post in site.posts limit:10 %}
-  <article>
+  <article style="margin-bottom: 16px;">
     <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
     <time>{{ post.date | date: "%b %d, %Y" }}</time>
     {% if post.excerpt %}<p>{{ post.excerpt }}</p>{% endif %}
