@@ -12,7 +12,10 @@ If you have any questions
 ## Projects
 
 {% for project in site.projects %}
-  <article>
+  <article style="margin-bottom: 30px;">
+    {% if project.image %}
+      <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" style="max-width: 100%; height: auto; margin-bottom: 15px;">
+    {% endif %}
     <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
     {% if project.excerpt %}<p>{{ project.excerpt }}</p>{% endif %}
   </article>
