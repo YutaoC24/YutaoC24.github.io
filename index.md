@@ -64,11 +64,11 @@ author_profile: true
   background: #f5f5f5;
 }
 .project-info {
-  padding: 16px;
+  padding: 10px 12px;
 }
 .project-info h3 {
-  margin: 0 0 8px;
-  font-size: 1em;
+  margin: 0 0 4px;
+  font-size: 0.9em;
 }
 .project-info h3 a {
   color: #333;
@@ -78,10 +78,10 @@ author_profile: true
   color: #2a7ae2;
 }
 .project-info p {
-  font-size: 13px;
+  font-size: 12px;
   margin: 0;
   color: #666;
-  line-height: 1.5;
+  line-height: 1.4;
 }
 .post-item {
   margin-bottom: 20px;
