@@ -15,11 +15,11 @@ If you have any questions, you could find me at yutaocao@usc.edu
 
 ## Projects
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px;">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px;">
 {% for project in site.projects %}
   <div style="border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
     {% if project.image %}
-      <div style="width: 30%; height: 250px; overflow: hidden;">
+      <div style="width: 100%; height: 200px; overflow: hidden;">
         <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" style="width: 100%; height: 100%; object-fit: cover;">
       </div>
     {% endif %}
