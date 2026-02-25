@@ -19,8 +19,8 @@ If you have any questions, you could find me at yutaocao@usc.edu
 {% for project in site.projects %}
   <div style="border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
     {% if project.image %}
-      <div style="width: 100%; height: 250px; overflow: hidden;">
-        <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" style="width: 30%; height: 100%; object-fit: cover;">
+      <div style="width: 30%; height: 250px; overflow: hidden;">
+        <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" style="width: 100%; height: 100%; object-fit: cover;">
       </div>
     {% endif %}
     <div style="padding: 20px;">
