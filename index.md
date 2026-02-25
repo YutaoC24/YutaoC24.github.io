@@ -3,7 +3,7 @@ layout: default
 author_profile: true
 ---
 
-<div style="text-align: center; max-width: 600px; margin: 0 auto 40px;">
+<div style="text-align: center; max-width: 800px; margin: 0 auto 40px;">
 
 I'm a 2nd Year CS Master's student at USC specializing in <strong>3D Perception</strong> and <strong>Sim-to-Real Robotics</strong>. 
 
